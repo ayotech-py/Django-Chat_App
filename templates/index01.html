@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'counter.css' %}">
+<form method="POST" action="counter/">
+    <h1>Enter texts to count</h1>
+    {% csrf_token %}
+    <textarea name="text" rol="40" cols="100"></textarea> </br>
+    <button>submit</button>
+</form>
