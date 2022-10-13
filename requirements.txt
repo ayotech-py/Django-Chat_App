@@ -5,4 +5,4 @@ mysqlclient==2.1.1
 Pillow==9.2.0
 pytz==2022.4
 sqlparse==0.4.3
-python-3.10.8
+python-3.10.4
