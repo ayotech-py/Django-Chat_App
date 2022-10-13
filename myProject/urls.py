@@ -21,5 +21,4 @@ urlpatterns = [
     path('', include('myApp.urls')),
     path('weather/', include('weatherApp.urls')),
     path('chatapp/', include('chatApp.urls')),
-    path("__reload__/", include("django_browser_reload.urls")),
 ]
